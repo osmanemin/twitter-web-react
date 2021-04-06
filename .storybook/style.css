@@ -1,0 +1,10 @@
+.icons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icons svg{
+    margin: 20px;
+    font-size: 40px;
+
+}
