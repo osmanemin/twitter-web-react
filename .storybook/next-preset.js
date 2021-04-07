@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     webpackFinal: async (baseConfig, options) => {
         // Modify or replace config. Mutating the original reference object can cause unexpected bugs.
-        const { module = {} } = baseConfig;
+        const {module = {}} = baseConfig;
 
         const newConfig = {
             ...baseConfig,
@@ -36,6 +36,9 @@ module.exports = {
                         importLoaders: 1,
                         modules: true
                     }
+                },
+                {
+                    loader: require.resolve('postcss-loader'),
                 }
             ]
         });

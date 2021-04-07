@@ -1,19 +1,31 @@
 import React from 'react';
 
 import Button from '../components/button';
+import NavButton from "../components/nav-button";
+import Navigation from "../components/navigation";
+import {Home} from "../components/icons";
+import TitleBold from "../components/title-bold";
 
 export default {
     title: 'Buttons'
 };
 
 
-export const MyButton = () => (
+export const Normal = () => (
     <Button>
         tıklama
     </Button>
 )
-export const SecondButton = () => {
+export const NavigationButton = () => {
     return (
-        <button>deneme</button>
+        <NavButton>
+            <Home/>
+            <TitleBold>Home</TitleBold>
+        </NavButton>
+    )
+}
+export const Nav = () => {
+    return (
+        <Navigation selected="home"/>
     )
 }
