@@ -2,7 +2,7 @@
 
 Project Link : https://twitter-web-react-wheat.vercel.app/
 
-StoryBook Link: https://twitter-web-react-wheat.vercel.app/ui/index.html
+StoryBook Link : https://twitter-web-react-wheat.vercel.app/ui/index.html
 
 
 ## Getting Started
