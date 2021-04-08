@@ -1,11 +1,11 @@
 import Layout from "../components/layout";
 
 
-export default function Home() {
+export default function Explore() {
 
     return (
         <Layout>
-            home
+            explore
         </Layout>
     )
 }

@@ -1,11 +1,11 @@
 import Layout from "../components/layout";
 
 
-export default function Home() {
+export default function Notifications() {
 
     return (
         <Layout>
-            home
+            notifications
         </Layout>
     )
 }

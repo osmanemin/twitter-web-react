@@ -1,11 +1,11 @@
 import Layout from "../components/layout";
 
 
-export default function Home() {
+export default function Messages() {
 
     return (
         <Layout>
-            home
+            messages
         </Layout>
     )
 }
