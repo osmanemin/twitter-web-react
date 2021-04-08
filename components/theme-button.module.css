@@ -3,8 +3,8 @@
     height: 40px;
     min-width:40px;
     font-weight: bold;
+    color: white;
     background-color: var(--c-theme);
-    color: var(--c-text-color);
 
 
     &:hover{

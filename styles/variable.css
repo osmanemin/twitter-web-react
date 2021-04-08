@@ -1,11 +1,29 @@
 :root{
-    --c-primary: #000000;
+    --c-primary: #fff;
     --c-theme: #1DA1F2;
     --c-theme-20: rgba(29, 161, 242, 0.1);
+    --c-text-color: #000;
+    --c-border-color: rgb(230,236,240);
+    --c-gray: #6E767D;
+    --c-dark-gray: #202327;
+
+    --fade: 120ms
+}
+
+.dim{
+    --c-primary: rgb(21, 32, 43);
     --c-text-color: #FFFFFF;
     --c-border-color: #2F3336;
     --c-gray: #6E767D;
     --c-dark-gray: #202327;
 
-    --fade: 120ms
+}
+
+.dark{
+    --c-primary: #000000;
+    --c-text-color: #FFFFFF;
+    --c-border-color: #2F3336;
+    --c-gray: #6E767D;
+    --c-dark-gray: #202327;
+
 }
