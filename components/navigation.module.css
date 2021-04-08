@@ -2,9 +2,9 @@
     align-items: flex-start;
     flex-direction: column;
     display: flex;
-    button{
-        & + button{
-             margin-top: 8px;
-         }
+ }
+.navButton {
+    & + & {
+        margin-top: 8px;
     }
 }
