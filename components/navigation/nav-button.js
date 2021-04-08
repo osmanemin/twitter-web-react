@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './nav-button.module.css';
-import Button from "./button";
+import Button from "../button/button";
 import cN from 'classnames';
 
 const NavButton = ({notify, selected, children,className, ...props}) => {

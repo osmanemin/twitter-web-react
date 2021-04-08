@@ -1,9 +1,9 @@
 import React from "react";
 import style from './profile-box.module.css';
-import Photo from "./photo";
-import {ArrowBottom} from "./icons";
-import Button from "./button";
-import TextBody from "./text-body";
+import Photo from "../photo/photo";
+import {ArrowBottom} from "../icons";
+import Button from "../button/button";
+import TextBody from "../text-body/text-body";
 
 const ProfileBox = ({flat = false, name = "Osman Emin USTA", slug = "oeu"}) => {
     return (

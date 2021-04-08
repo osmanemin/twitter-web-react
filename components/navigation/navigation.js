@@ -3,11 +3,11 @@ import { useRouter } from 'next/router'
 import cn from 'classnames';
 
 import NavButton from "./nav-button";
-import TextTitle from "./text-title";
+import TextTitle from "../text-title/text-title";
 
 
 import style from './navigation.module.css';
-import {MENU} from "../constants";
+import {MENU} from "../../constants";
 
 const Navigation = ({flat = false}) => {
 
