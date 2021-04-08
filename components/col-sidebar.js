@@ -9,8 +9,12 @@ const ColSidebar = ({flat}) => {
     return (
         <div className={cn(style.sidebar)}>
             <Navigation flat={flat}/>
-            <ThemeButton big full>Tweet</ThemeButton>
-            <ProfileBox/>
+            <div className={style.tweet}>
+                <ThemeButton big full={!flat}>{flat ? 'a' : "Tweet"}</ThemeButton>
+            </div>
+            <div className={style.profile}>
+                <ProfileBox flat={flat}/>
+            </div>
         </div>
 
     )

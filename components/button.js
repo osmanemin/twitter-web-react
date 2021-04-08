@@ -5,7 +5,7 @@ import cN from 'classnames';
 
 const Button = ({ full = false, children, className, ...props}) => {
     return (
-        <button type="button" className={cN(full && style.fullWidth  ,className, style.button)} {...props}>
+        <button type="button" className={cN(full && style.fullWidth  , style.button, className)} {...props}>
             {children}
         </button>
     )

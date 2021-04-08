@@ -1,11 +1,15 @@
 .layout {
     display: grid;
-    grid-template-columns: 230px 1fr 230px;
+    grid-template-columns: auto 2fr 260px;
     background-color: var(--c-primary);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1070px;
     min-height: 100vh;
 
     @media (--t) {
-        grid-template-columns: 230px 1fr ;
+        max-with:1270px;
+        grid-template-columns: auto 2fr ;
     }
 }
 

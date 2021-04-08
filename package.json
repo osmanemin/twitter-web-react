@@ -20,6 +20,7 @@
     "@babel/core": "^7.13.10",
     "@storybook/addon-actions": "^6.1.21",
     "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-knobs": "^6.2.5",
     "@storybook/addon-links": "^6.1.21",
     "@storybook/react": "^6.1.21",
     "@svgr/cli": "^5.5.0",
