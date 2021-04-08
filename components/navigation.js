@@ -1,4 +1,6 @@
 import React from 'react';
+import { useRouter } from 'next/router'
+
 import NavButton from "./nav-button";
 import TextTitle from "./text-title";
 
@@ -6,18 +8,17 @@ import TextTitle from "./text-title";
 import style from './navigation.module.css';
 import {MENU} from "../constants";
 
-const Navigation = ({flat = false, selectedKey='home'}) => {
+const Navigation = ({flat = false}) => {
 
-
+    const router = useRouter();
 
     return (
         <nav className={style.nav}>
-            {/*
-            const selected = router.pathname === menu.path
-            */}
+
+
             {MENU.map(menu => {
                 const showTitle = !flat && menu.title.length > 0;
-                const selected = selectedKey === menu.key;
+                const selected = router.pathname === menu.path
                 return (
                     <NavButton
                         key={menu.key}
