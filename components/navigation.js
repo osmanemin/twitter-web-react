@@ -23,7 +23,7 @@ const Navigation = ({flat = false, selectedKey='home'}) => {
                         key={menu.key}
                         notify={menu.notify}
                         selected={selected}
-                        //href={menu.path}
+                        href={menu.path}
                         //    className={cn(style.navButton, menu.key)}
                     >
                         {selected ? menu.iconSelected : menu.icon}

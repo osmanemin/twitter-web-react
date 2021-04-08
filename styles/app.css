@@ -17,3 +17,7 @@ body {
     background-color: var(--c-primary);
     color: var(--c-text-color);
 }
+
+a{
+    text-decoration: none;
+}
