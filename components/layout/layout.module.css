@@ -2,9 +2,8 @@
     display: grid;
     grid-template-columns: auto 2fr 260px;
     background-color: var(--c-primary);
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1070px;
+    margin-right: 50px;
+    margin-left: 50px;
     min-height: 100vh;
 
     @media (--t) {
