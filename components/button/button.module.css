@@ -20,4 +20,7 @@
 
 .iconButton{
     padding: 8px;
+    svg{
+        font-size: 24px;
+    }
 }
