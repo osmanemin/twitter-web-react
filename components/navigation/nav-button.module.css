@@ -1,46 +1,45 @@
 .navButton {
-    position: relative;
-    padding: 15px;
+  position: relative;
+  padding: 15px;
 
+  svg {
+    font-size: 26px;
 
-    svg {
-      font-size: 26px;
+    & + * {
+      margin-left: 20px;
+      margin-right: 15px;
+    }
+  }
 
+  &:global(.twitter) {
+    color: var(--c-theme);
 
-      & + * {
-        margin-left: 20px;
-        margin-right: 15px;
-
-      }
-
+    :global(html.dark) & {
+      color: white;
     }
 
-    &:global(.twitter){
-        color: var(--c-theme);
-
-        :global(html:not(.light)) & {
-        color: white;
-     }
-
-}
+    :global(html.dim) & {
+      color: white;
+    }
+  }
 }
 
 .navButtonSelected {
-    color: var(--c-theme);
+  color: var(--c-theme);
 }
 
-.notify{
-    height: 17px;
-    position: absolute;
-    left: 20px;
-    top: 5px;
-    padding-left: 6px;
-    padding-right: 6px;
-    border-radius: 17px;
-    border: 2px solid var(--c-primary);
-    display: flex;
-    align-items: center;
-    background-color: var(--c-theme);
-    color: var(--c-text-color);
-    font-size: 11px;
+.notify {
+  height: 17px;
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 17px;
+  border: 2px solid var(--c-primary);
+  display: flex;
+  align-items: center;
+  background-color: var(--c-theme);
+  color: var(--c-text-color);
+  font-size: 11px;
 }

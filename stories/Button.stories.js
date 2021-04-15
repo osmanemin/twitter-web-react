@@ -46,7 +46,8 @@ export const NavigationButton = () => {
 }
 export const Nav = () => {
     const flat = boolean("Flat",false)
+    const story = boolean("Selected", false)
     return (
-        <Navigation flat={flat} selected="home"/>
+        <Navigation flat={flat} story={story}/>
     )
 }
